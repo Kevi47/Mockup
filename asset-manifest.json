@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Mockup/static/css/main.f9d08ade.css",
+    "main.js": "/Mockup/static/js/main.e66e0c09.js",
+    "static/js/787.8b0df635.chunk.js": "/Mockup/static/js/787.8b0df635.chunk.js",
+    "static/media/BBLogo.png": "/Mockup/static/media/BBLogo.6b0e26ff7c8f84fb8bc3.png",
+    "index.html": "/Mockup/index.html",
+    "main.f9d08ade.css.map": "/Mockup/static/css/main.f9d08ade.css.map",
+    "main.e66e0c09.js.map": "/Mockup/static/js/main.e66e0c09.js.map",
+    "787.8b0df635.chunk.js.map": "/Mockup/static/js/787.8b0df635.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9d08ade.css",
+    "static/js/main.e66e0c09.js"
+  ]
+}
