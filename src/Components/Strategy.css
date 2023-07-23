@@ -1,0 +1,28 @@
+.strategy {
+    background-color: white;
+    max-width: 100%;
+    width: 30%;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 98vh;
+  }
+  #endImg {
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    border-bottom-right-radius: 20px;
+    right: 0;
+  }
+     @media (max-width: 500px) {
+    .strategy{
+      flex: 100%;
+      border-radius: 20px;
+    }
+  }

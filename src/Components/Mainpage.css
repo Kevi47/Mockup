@@ -1,0 +1,12 @@
+
+.mainDiv {
+  background-color: rgb(128, 128, 128);
+  display: flex;
+}
+
+@media (max-width: 500px) {
+  .mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

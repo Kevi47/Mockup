@@ -1,0 +1,82 @@
+.navBar {
+  background-color: rgba(255, 255, 255, 0.899);
+  max-width: 100%;
+  width: 3%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 98vh;
+}
+.logoDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#logoImg {
+  width: 70%;
+  padding-top: 30%;
+  margin-top: 15%;
+}
+.navLogo {
+  width: 35%;
+  margin-top: 50%;
+}
+.navLogo:hover {
+  scale: 1.2;
+  filter: brightness(50%);
+}
+
+.logoRack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100%;
+}
+
+.navLogos {
+  width: 50%;
+  margin-top: 50%;
+}
+
+.navLogos:hover {
+  scale: 1.2;
+  filter: brightness(50%);
+}
+
+@media (max-width: 500px) {
+  .navBar {
+    display: flex;
+    border-radius: 0;
+    background-color: white;
+    flex-direction: row;
+    width: 100%;
+    height: max-content;
+    flex: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+  }
+  .logoRack {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    width: 100%;
+  }
+  .navLogos {
+    margin: 0;
+    padding: 4%;
+    overflow: hidden;
+  }
+  .logoDiv {
+    display: none;
+  }
+}
