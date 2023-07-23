@@ -3,8 +3,13 @@
   background-color: rgb(128, 128, 128);
   display: flex;
 }
+.pdiv{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .mainDiv {
     display: flex;
     flex-wrap: wrap;

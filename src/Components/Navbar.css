@@ -48,7 +48,7 @@
   filter: brightness(50%);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .navBar {
     display: flex;
     border-radius: 0;

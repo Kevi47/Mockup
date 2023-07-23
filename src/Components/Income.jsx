@@ -13,52 +13,59 @@ import {
 const data = [
   {
     name: "20",
-    Employee: 1000,
-    Employer: 1000,
-    TotalInterest: 1500,
+    namey:"100",
+    Employee: 30,
+    Employer: 30,
+    TotalInterest: 20,
     amt: 2400,
   },
   {
     name: "25",
-    Employee: 1500,
-    Employer: 1500,
-    TotalInterest: 2000,
+    namey:"150",
+    Employee: 40,
+    Employer: 40,
+    TotalInterest: 30,
     amt: 2210,
   },
   {
     name: "30",
-    Employee: 2000,
-    Employer: 2000,
-    TotalInterest: 2500,
+    namey:"200",
+    Employee: 50,
+    Employer: 50,
+    TotalInterest: 40,
     amt: 2290,
   },
   {
     name: "35",
-    Employee: 2500,
-    Employer: 2500,
+    namey:"250",
+    Employee: 60,
+    Employer: 60,
     amt: 4000,
-    TotalInterest: 3000,
+    TotalInterest: 50,
   },
   {
     name: "40",
-    Employee: 3000,
-    Employer: 3000,
+    namey:"300",
+    Employee: 70,
+    Employer: 70,
     amt: 2181,
-    TotalInterest: 3500,
+    TotalInterest: 60,
   },
   {
     name: "45",
-    Employee: 3500,
-    Employer: 3500,
+    namey:"350",
+    Employee: 80,
+    Employer: 80,
     amt: 2500,
-    TotalInterest: 4000,
+    TotalInterest: 70,
   },
   {
     name: "50",
-    Employee: 4000,
-    Employer: 4000,
+    namey:"400",
+    Employee: 90,
+    Employer: 90,
     amt: 2100,
-    TotalInterest: 4500,
+    TotalInterest: 80,
   },
 ];
 
@@ -85,7 +92,7 @@ function Income() {
       </div>
 
       <div className="chart">
-        <ResponsiveContainer width={"100%"} height={"50%"}>
+        <ResponsiveContainer width={"100%"} height={"90%"}>
           <BarChart
             data={data}
             margin={{
@@ -96,7 +103,7 @@ function Income() {
             }}
           >
             <XAxis dataKey="name" />
-            <YAxis />
+            <YAxis dataKey="namey"/>
             <Tooltip />
             <Legend />
             <Bar dataKey="Employer" stackId="a" fill="rgb(42, 20, 185)" />
